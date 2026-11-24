@@ -1,0 +1,35 @@
+# Nama project Flutter.
+name: wargaconnect
+
+# Deskripsi aplikasi.
+description: Aplikasi Informasi dan Layanan Warga Berbasis Mobile.
+
+# Project tidak dipublikasikan ke pub.dev.
+publish_to: 'none'
+
+# Versi aplikasi.
+version: 1.0.0+1
+
+# Versi minimum Dart SDK.
+environment:
+  sdk: ^3.13.4
+
+# Package utama yang digunakan aplikasi.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ikon tambahan.
+  cupertino_icons: ^1.0.8
+
+# Package untuk pengujian dan pemeriksaan kode.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+# Konfigurasi Flutter.
+flutter:
+  # Mengaktifkan Material Design.
+  uses-material-design: true
